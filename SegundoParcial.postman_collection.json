@@ -1,0 +1,461 @@
+{
+	"info": {
+		"_postman_id": "ba8fe57c-908a-4b35-890b-22436d965693",
+		"name": "SegundoParcial",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Usuarios",
+			"item": [
+				{
+					"name": "http://localhost/SegundoParcialProgramacion3/index.php/usuario/2",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/SegundoParcialProgramacion3/index.php/usuario/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"SegundoParcialProgramacion3",
+								"index.php",
+								"usuario",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost/SegundoParcialProgramacion3/index.php/usuario/",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "nombre",
+									"value": "Martin",
+									"type": "text"
+								},
+								{
+									"key": "apellido",
+									"value": "Bottani",
+									"type": "text"
+								},
+								{
+									"key": "clave",
+									"value": "12345",
+									"type": "text"
+								},
+								{
+									"key": "mail",
+									"value": "martin@martin.com",
+									"type": "text"
+								},
+								{
+									"key": "tipo",
+									"value": "cliente",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost/SegundoParcialProgramacion3/index.php/usuario/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"SegundoParcialProgramacion3",
+								"index.php",
+								"usuario",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Criptomonedas",
+			"item": [
+				{
+					"name": "http://localhost/SegundoParcialProgramacion3/index.php/criptomoneda/",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MjM3MTA0NjMsImV4cCI6MTYyMzcxNDA2MywiYXVkIjoiNzliYmM1MGMwMWEyZTVkMzc3MTUzZTY5MGE1OTgxNmFhY2Q0Njc0ZCIsImRhdGEiOnsidXN1YXJpbyI6Imx1Y2FzQGx1Y2FzLmNvbSIsInBlcmZpbCI6ImFkbWluIiwiY2xhdmUiOiIxMjM0In0sImFwcCI6IkFQSSBSRVNUIFJFU1RBVVJBTlQgMjAyMSJ9.HWhbswXB1-N6fVgku6iDrPCF5ih0wjz7vslLzJtZtK4",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "nombre",
+									"value": "BitCoin",
+									"type": "text"
+								},
+								{
+									"key": "precio",
+									"value": "500",
+									"type": "text"
+								},
+								{
+									"key": "nacionalidad",
+									"value": "Brasil",
+									"type": "text"
+								},
+								{
+									"key": "foto",
+									"type": "file",
+									"src": "/C:/Users/Altromist/Desktop/60bf78d29b9c4.jpg"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost/SegundoParcialProgramacion3/index.php/criptomoneda/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"SegundoParcialProgramacion3",
+								"index.php",
+								"criptomoneda",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost/SegundoParcialProgramacion3/index.php/criptomoneda/1",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MjM3MTAyMzUsImV4cCI6MTYyMzcxMzgzNSwiYXVkIjoiNzliYmM1MGMwMWEyZTVkMzc3MTUzZTY5MGE1OTgxNmFhY2Q0Njc0ZCIsImRhdGEiOnsidXN1YXJpbyI6Imx1Y2FzQGx1Y2FzLmNvbSIsInBlcmZpbCI6ImFkbWluIiwiY2xhdmUiOiIxMjM0In0sImFwcCI6IkFQSSBSRVNUIFJFU1RBVVJBTlQgMjAyMSJ9.iV0FwdS4yCRyqTji9l79XZqLFtxBaR9nqr6BQmFrbb0",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/SegundoParcialProgramacion3/index.php/criptomoneda/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"SegundoParcialProgramacion3",
+								"index.php",
+								"criptomoneda",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost/SegundoParcialProgramacion3/index.php/criptomoneda/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/SegundoParcialProgramacion3/index.php/criptomoneda/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"SegundoParcialProgramacion3",
+								"index.php",
+								"criptomoneda",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost/SegundoParcialProgramacion3/index.php/criptomoneda/nacionalidad/Argentina",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MjM3MTAyMzUsImV4cCI6MTYyMzcxMzgzNSwiYXVkIjoiNzliYmM1MGMwMWEyZTVkMzc3MTUzZTY5MGE1OTgxNmFhY2Q0Njc0ZCIsImRhdGEiOnsidXN1YXJpbyI6Imx1Y2FzQGx1Y2FzLmNvbSIsInBlcmZpbCI6ImFkbWluIiwiY2xhdmUiOiIxMjM0In0sImFwcCI6IkFQSSBSRVNUIFJFU1RBVVJBTlQgMjAyMSJ9.iV0FwdS4yCRyqTji9l79XZqLFtxBaR9nqr6BQmFrbb0",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/SegundoParcialProgramacion3/index.php/criptomoneda/nacionalidad/Argentina",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"SegundoParcialProgramacion3",
+								"index.php",
+								"criptomoneda",
+								"nacionalidad",
+								"Argentina"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost/SegundoParcialProgramacion3/index.php/criptomoneda/3",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MjM3MTI3MDAsImV4cCI6MTYyMzcxNjMwMCwiYXVkIjoiNzliYmM1MGMwMWEyZTVkMzc3MTUzZTY5MGE1OTgxNmFhY2Q0Njc0ZCIsImRhdGEiOnsidXN1YXJpbyI6Imx1Y2FzQGx1Y2FzLmNvbSIsInBlcmZpbCI6ImFkbWluIiwiY2xhdmUiOiIxMjM0In0sImFwcCI6IkFQSSBSRVNUIFJFU1RBVVJBTlQgMjAyMSJ9.mRkSUZsvl_4xQ9Qbfkg-Z2BBfItrOt0cvT-lOfIVmLA",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/SegundoParcialProgramacion3/index.php/criptomoneda/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"SegundoParcialProgramacion3",
+								"index.php",
+								"criptomoneda",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "login",
+			"item": [
+				{
+					"name": "http://localhost/SegundoParcialProgramacion3/index.php/login/",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "mail",
+									"value": "lucas@lucas.com",
+									"type": "text"
+								},
+								{
+									"key": "clave",
+									"value": "1234",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost/SegundoParcialProgramacion3/index.php/login/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"SegundoParcialProgramacion3",
+								"index.php",
+								"login",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Ventas",
+			"item": [
+				{
+					"name": "http://localhost/SegundoParcialProgramacion3/index.php/venta/",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MjM3MTExNTYsImV4cCI6MTYyMzcxNDc1NiwiYXVkIjoiNzliYmM1MGMwMWEyZTVkMzc3MTUzZTY5MGE1OTgxNmFhY2Q0Njc0ZCIsImRhdGEiOnsidXN1YXJpbyI6Imx1Y2FzQGx1Y2FzLmNvbSIsInBlcmZpbCI6ImFkbWluIiwiY2xhdmUiOiIxMjM0In0sImFwcCI6IkFQSSBSRVNUIFJFU1RBVVJBTlQgMjAyMSJ9.Ndy4fvb5VvcPhSYQT0PkmSi-GNZyitcdogIVkSeoPeg",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "idCriptomoneda",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "cantidad",
+									"value": "600",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost/SegundoParcialProgramacion3/index.php/venta/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"SegundoParcialProgramacion3",
+								"index.php",
+								"venta",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost/SegundoParcialProgramacion3/index.php/venta/nombre/BitCoin",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MjM3MTI3MDAsImV4cCI6MTYyMzcxNjMwMCwiYXVkIjoiNzliYmM1MGMwMWEyZTVkMzc3MTUzZTY5MGE1OTgxNmFhY2Q0Njc0ZCIsImRhdGEiOnsidXN1YXJpbyI6Imx1Y2FzQGx1Y2FzLmNvbSIsInBlcmZpbCI6ImFkbWluIiwiY2xhdmUiOiIxMjM0In0sImFwcCI6IkFQSSBSRVNUIFJFU1RBVVJBTlQgMjAyMSJ9.mRkSUZsvl_4xQ9Qbfkg-Z2BBfItrOt0cvT-lOfIVmLA",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "http://localhost/SegundoParcialProgramacion3/index.php/venta/nombre/BitCoin",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"SegundoParcialProgramacion3",
+								"index.php",
+								"venta",
+								"nombre",
+								"BitCoin"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost/SegundoParcialProgramacion3/index.php/venta/nacionalidad/Argentina",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MjM3MTI3MDAsImV4cCI6MTYyMzcxNjMwMCwiYXVkIjoiNzliYmM1MGMwMWEyZTVkMzc3MTUzZTY5MGE1OTgxNmFhY2Q0Njc0ZCIsImRhdGEiOnsidXN1YXJpbyI6Imx1Y2FzQGx1Y2FzLmNvbSIsInBlcmZpbCI6ImFkbWluIiwiY2xhdmUiOiIxMjM0In0sImFwcCI6IkFQSSBSRVNUIFJFU1RBVVJBTlQgMjAyMSJ9.mRkSUZsvl_4xQ9Qbfkg-Z2BBfItrOt0cvT-lOfIVmLA",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/SegundoParcialProgramacion3/index.php/venta/nacionalidad/Argentina",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"SegundoParcialProgramacion3",
+								"index.php",
+								"venta",
+								"nacionalidad",
+								"Argentina"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "archivos",
+			"item": [
+				{
+					"name": "http://localhost/SegundoParcialProgramacion3/index.php/archivos/",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MjM3MTQxMjYsImV4cCI6MTYyMzcxNzcyNiwiYXVkIjoiNzliYmM1MGMwMWEyZTVkMzc3MTUzZTY5MGE1OTgxNmFhY2Q0Njc0ZCIsImRhdGEiOnsidXN1YXJpbyI6Imx1Y2FzQGx1Y2FzLmNvbSIsInBlcmZpbCI6ImFkbWluIiwiY2xhdmUiOiIxMjM0In0sImFwcCI6IkFQSSBSRVNUIFJFU1RBVVJBTlQgMjAyMSJ9.qtkaGcGq-7jKz585_27iyo2z3uJQAe9ItaZEL61Ew34",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/SegundoParcialProgramacion3/index.php/archivos/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"SegundoParcialProgramacion3",
+								"index.php",
+								"archivos",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
